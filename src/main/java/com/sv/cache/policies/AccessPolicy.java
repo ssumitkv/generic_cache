@@ -1,6 +1,6 @@
 package com.sv.cache.policies;
 
-import com.sv.cache.CacheFullException;
+import com.sv.cache.exceptions.CacheFullException;
 
 public interface AccessPolicy<Key> {
     void accessed(Key key) throws CacheFullException;

@@ -1,10 +1,9 @@
 package com.sv.cache.policies;
 
-import com.sv.cache.CacheFullException;
+import com.sv.cache.exceptions.CacheFullException;
 import com.sv.cache.storage.Storage;
 
 import java.util.LinkedList;
-import java.util.Map;
 
 public class LRUAccessPolicy<Key> implements AccessPolicy<Key> {
 

@@ -1,5 +1,6 @@
 package com.sv.cache;
 
+import com.sv.cache.exceptions.CacheFullException;
 import com.sv.cache.policies.LRUAccessPolicy;
 import com.sv.cache.storage.HashMapBasedStorage;
 import com.sv.cache.storage.Storage;

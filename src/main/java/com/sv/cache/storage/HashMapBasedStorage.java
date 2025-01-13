@@ -1,6 +1,6 @@
 package com.sv.cache.storage;
 
-import com.sv.cache.CacheFullException;
+import com.sv.cache.exceptions.CacheFullException;
 import com.sv.cache.policies.AccessPolicy;
 
 import java.util.HashMap;
